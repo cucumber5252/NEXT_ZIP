@@ -1,0 +1,162 @@
+.container {
+  width: 30vw;
+  height: 100vh;
+  position: relative;
+
+  background-color: #f7f7f7;
+}
+
+.heading {
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.starContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vh 0 0 0;
+}
+
+.subHeading {
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: #222;
+}
+
+.starDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 20vw;
+  margin: 1.5vh 0;
+}
+.recommendContainer {
+  margin: 1vh 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subSubHeading {
+  margin: 2vh 0 0 0;
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+}
+
+.recommendButtons {
+  margin: 2vh 0;
+  width: 18vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommendButton {
+  border: 0.4vh solid #222;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 0.5vh;
+  transition: border-color 0.2s, color 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 6.5vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.recommendText {
+  font-size: 1.3vw;
+  font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-left: 0.5vw;
+}
+
+.recommended {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.notRecommended {
+  border-color: #f44366;
+  color: #f44366;
+}
+
+.buttonWrapper {
+  width: 26vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 23vh;
+}
+
+.buttonStyle {
+  width: 6.5vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border-radius: 0.5vh;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSpan {
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+
+.bottom {
+  height: 18vh;
+  width: 30vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #760023;
+  width: 30vw;
+  height: 13vh;
+  color: #ffffff;
+  border-radius: 0 1vh 1vh 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomText {
+  font-size: 1vw;
+  font-weight: 700;
+}
+.bottomCarDiv {
+  width: 30vw;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottomCar {
+  animation: Move 0.6s forwards;
+}
+
+@keyframes Move {
+  0% {
+    transform: translateX(-2vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

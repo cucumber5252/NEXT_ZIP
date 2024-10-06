@@ -1,0 +1,54 @@
+.map {
+  width: 63vw;
+  height: 100vh;
+  border: none;
+  position: relative;
+}
+
+.mapIcon {
+  position: absolute;
+  bottom: 5vh;
+  right: 5vh;
+  z-index: 1;
+  border: none;
+  height: 5vh;
+  background-color: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.infoWindowClass {
+  margin-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1vw;
+  padding: 0 1vh;
+  width: 25vw;
+  height: fit-content;
+}
+
+.nameDiv {
+  margin: 2vh 0;
+}
+
+.imgDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 2vh;
+}
+.Icon {
+  border: none;
+  background: none;
+}
+
+.Icon:hover {
+  background: #eee;
+}
+
+.ExamplePicture {
+  width: 15vw;
+  height: 30vh;
+  border: 1px solid #777;
+}

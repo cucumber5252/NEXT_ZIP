@@ -1,0 +1,102 @@
+.townHouseListDiv {
+  width: 30vw;
+  max-height: 100vh;
+  overflow-y: scroll;
+  border-right: 0.1vw solid lightgray;
+}
+
+.townHouseListDiv::-webkit-scrollbar {
+  width: 0;
+}
+
+.townModalLabel {
+  margin-top: 3vh;
+}
+
+.townButtons {
+  width: 22vw;
+  align-items: center;
+  border: 0.4vh dashed #ccc;
+  background-color: white;
+  padding: 1vh 1vw;
+  border-radius: 0.5vw;
+  margin-left: 3vw;
+  height: fit-content;
+}
+
+.townButtonsFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  height: fit-content;
+}
+
+.townButton {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  border-radius: 0.5vw;
+  padding: 1vh 1vw;
+  margin: 1vh 0.5vw;
+  font-size: 1.1vw;
+  transition: background-color 0.3s, color 0.3s;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.townButton:hover {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+}
+
+.activeArea {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+  border: 0.15vw solid #760023;
+}
+
+.oneHouseMargin {
+  display: inline-block;
+  margin: 4vh 0 0 1.25vw;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1vw;
+  padding: 1vh 2vw;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+  color: #555;
+}
+
+.pagination button.active {
+  background-color: #760023;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination button:first-child {
+  margin-right: 2vw;
+}
+
+.pagination button:last-child {
+  margin-left: 2vw;
+}

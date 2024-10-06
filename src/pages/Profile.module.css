@@ -1,0 +1,32 @@
+.profileDiv {
+  width: 30vw;
+  max-height: 92vh;
+  overflow-y: scroll;
+  padding: 4vh 0;
+}
+
+.profileDiv::-webkit-scrollbar {
+  width: 0;
+}
+
+.profileHouseTitle {
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin-left: 1.5vw;
+}
+
+.profileReviewTitle {
+  font-weight: 700;
+  font-size: 1.3vw;
+  margin-left: 1.5vw;
+  margin-top: 5vh;
+}
+
+.myReviewList {
+  margin: 2h 0 0 0;
+}
+
+.oneHouseMargin {
+  display: inline-block;
+  margin: 4vh 0 0 1.25vw;
+}

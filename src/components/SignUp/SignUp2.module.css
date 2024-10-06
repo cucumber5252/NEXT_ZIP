@@ -1,0 +1,101 @@
+.signup2_div {
+  width: 30vw;
+  height: 100vh;
+  background-image: url("../../assets/background.png");
+  box-shadow: 0.1vw 0 0 0 white inset;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h6_text {
+  font-size: 0.8vw;
+  font-weight: bold;
+  background-color: #fbfbfb;
+  color: #760023;
+  padding: 0.9vh;
+  text-align: center;
+  margin: 3vh 4.3vw;
+  width: fit-content;
+  border-radius: 2vh;
+  height: fit-content;
+  border: 0.2vw solid #ccc;
+}
+
+.form {
+  width: 30vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputDiv {
+  width: 26.7vw;
+  margin: 1vh 0;
+}
+
+.nicknameLabel,
+.studentNumberLabel,
+.genderLabel,
+.departmentLabel {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3vw;
+  margin-left: 0.5vw;
+}
+
+.input {
+  margin: 0.5vw 0;
+  width: 25vw;
+  border: 0.2vw solid #ccc;
+  border-radius: 0.5vw;
+  background-color: rgb(255, 255, 255);
+  font-size: small;
+  padding: 1.4vh 0.7vw;
+  font-weight: 700;
+  font-size: 1.1vw;
+}
+
+.input::placeholder {
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.select {
+  margin: 0.5vw 0;
+  width: 26.7vw;
+  height: 6.05vh;
+  border: 0.2vw solid #ccc;
+  border-radius: 0.5vw;
+  background-color: rgb(255, 255, 255);
+  font-size: small;
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.submitButton {
+  width: 10vw;
+  height: 5vh;
+  margin-top: 5vh;
+  background-color: #ffffff;
+  color: #760023;
+  border: none;
+  border-radius: 0.5vw;
+  font-weight: 700;
+  font-size: 1.3vw;
+  transition: transform 0.2s ease-in-out;
+}
+.submitButton:hover {
+  transform: translateY(-0.5vh);
+}
+
+#errorStatement {
+  font-size: 12px;
+  color: #ff0000;
+  font-weight: bold;
+}

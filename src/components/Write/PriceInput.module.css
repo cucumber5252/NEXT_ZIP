@@ -1,0 +1,50 @@
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26vw;
+}
+
+.priceLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh 1.5vw;
+}
+
+.priceLabelTitle {
+  font-weight: 700;
+  margin-bottom: 1vh;
+  font-size: 1.3vw;
+  color: #333;
+}
+
+.priceInput {
+  width: 5vw;
+  text-align: center;
+  height: 4vh;
+  font-size: 1vw;
+  border-radius: 0.5vh;
+  border: 0.1vw solid #b7b7b7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+  font-weight: 700;
+  padding: 0.5vw;
+}
+
+.priceInput:focus {
+  outline: 0.1vw solid #b7b7b7;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.priceInput::placeholder {
+  font-size: 0.9vw;
+}
+
+.priceInput::-webkit-inner-spin-button,
+.priceInput::-webkit-outer-spin-button {
+  --appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,259 @@
+.divTitle {
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 3vh;
+}
+
+.firstFormDiv {
+  width: 30vw;
+  height: 100vh;
+  position: relative;
+  background-color: #f4f4f4;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4vh;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 26vw;
+  margin-bottom: 3vh;
+}
+
+.labelTitle {
+  font-weight: 700;
+  width: 25.5vw;
+  margin-bottom: 1.5vh;
+  margin-left: 0.5vw;
+  font-size: 1.3vw;
+  color: #333;
+}
+
+.labelTownDiv {
+  width: 25.5vw;
+  margin-bottom: 1.5vh;
+  margin-left: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.labelTown {
+  font-weight: 700;
+  font-size: 1.3vw;
+  color: #333;
+}
+
+.labelTownButton {
+  font-weight: 700;
+  font-size: 1vw;
+  color: #333;
+  position: relative;
+}
+
+.labelTownImgPopup {
+  display: none;
+  position: absolute;
+  top: -20vh;
+  left: 4vw;
+  z-index: 10;
+}
+
+.labelTownImg {
+  width: 26vw;
+  height: auto;
+}
+
+.labelTownButton:hover .labelTownImgPopup {
+  display: block;
+}
+
+.inputSpan {
+  position: relative;
+  width: 26vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 26vw;
+  height: 6vh;
+  font-size: 1vw;
+  border-radius: 0.5vh;
+  border: 0.1vw solid #b7b7b7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+  font-weight: 700;
+  padding-left: 1vw;
+  z-index: 0;
+}
+
+.input:focus,
+.select:focus {
+  outline: 0.1vw solid #b7b7b7;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.detailInput {
+  width: 24.8vw;
+  height: 6vh;
+  font-size: 1vw;
+  border-radius: 0.5vh;
+  border: 0.1vw solid #b7b7b7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+  font-weight: 700;
+  padding-left: 1vw;
+  z-index: 0;
+  margin-top: 1vh;
+}
+
+.select {
+  width: 26vw;
+  height: 6vh;
+  font-size: 1vw;
+  border-radius: 0.5vh;
+  border: 0.1vw solid #b7b7b7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+  font-weight: 700;
+  padding-left: 1vw;
+}
+
+.option {
+  font-weight: 700;
+  color: black;
+  padding-left: 0.5vw;
+}
+
+.addressButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 2vw;
+  height: 4.1vh;
+  border: none;
+  background: #ffffff;
+  position: absolute;
+  right: 0.1vw;
+  top: 0.5vw;
+  z-index: 2;
+}
+
+.searchImg {
+  width: 1.5vw;
+  fill: #333;
+  position: relative;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 7vw;
+  width: 30vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.modal {
+  position: absolute;
+  top: 15vh;
+  left: 2.9vw;
+  border-radius: 1vw;
+  overflow: hidden;
+  width: 24vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttonWrapper {
+  width: 26vw;
+  padding: 0 2vw;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 23vh;
+}
+
+.buttonStyle {
+  width: 6.5vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border-radius: 0.5vh;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSpan {
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+
+.bottom {
+  height: 18vh;
+  width: 30vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomCarDiv {
+  width: 7vw;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #760023;
+  width: 7vw;
+  height: 13vh;
+  color: #ffffff;
+  border-radius: 0 1vh 1vh 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomText {
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.bottomContinue {
+  font-size: 0.8vw;
+  font-weight: 700;
+}
+
+.bottomCar {
+  animation: Move 0.6s forwards;
+}
+
+@keyframes Move {
+  0% {
+    transform: translateX(-7vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

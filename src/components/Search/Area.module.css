@@ -1,0 +1,73 @@
+.showMapButtonContainer {
+  margin-bottom: 1vh;
+}
+
+.showMapButton {
+  background-color: rgb(245, 243, 243);
+  border: none;
+  padding: 0.5vh 0.7vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  font-size: 0.9vw;
+  margin: 1.5vh 0 0;
+  font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.showMapButton:hover {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+}
+
+.showMapButtonClicked {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+  border: 0.15vw solid #760023;
+}
+
+/* 활성화된 버튼 스타일 */
+/* 
+.mapAndButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1vh;
+  /*background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+
+.mapText {
+  font-size: 0.4vw;
+  margin-right: 10vw;
+}
+
+.Map {
+  width: 22vw;
+  height: auto;
+  margin-top: 0.3vh;
+}
+
+.areaButtonDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.areaButton {
+  /* 공통 스타일을 지정합니다. */
+  padding: 0.5vh 0.5vw;
+  margin: 0.3vw;
+  font-size: 1vw;
+  font-weight: 700;
+  border: 0.2vw solid #a03232;
+  border-radius: 0.5vw;
+  background-color: white;
+  color: #a03232;
+  cursor: pointer;
+}
+
+.pressed {
+  background-color: #a03232;
+  color: white;
+  border-color: #a03232;
+}

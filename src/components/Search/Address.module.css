@@ -1,0 +1,64 @@
+.addressContainer {
+  position: relative;
+  display: flex; /* 버튼 가운데 정렬을 위해 flex를 사용합니다 */
+  align-items: center; /* 수직 가운데 정렬을 위해 사용합니다 */
+  justify-content: center; /* 가운데 정렬을 위해 추가합니다 */
+  font-weight: 700;
+}
+
+.addressInput {
+  margin: 2vh 0 0 0;
+  width: 22vw;
+  padding: 1vh;
+  font-size: 1vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.addressInput::placeholder {
+  font-size: 1vw;
+  color: #c7bcbc;
+  text-align: center;
+}
+
+.addressLabel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: #999;
+  pointer-events: none;
+  transform-origin: 0 0;
+  transition: all 0.2s ease;
+}
+
+/* .addressInput:focus + .addressLabel,
+.addressInput:not(:placeholder-shown) + .addressLabel {
+  transform: translateY(-25px) scale(0.8);
+} */
+
+.searchContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.searchButton {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 1.5vw; /* 돋보기 아이콘의 크기를 조정합니다 */
+  height: 2.5vh; /* 돋보기 아이콘의 크기를 조정합니다 */
+}

@@ -1,0 +1,185 @@
+.textReviewContainer {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+
+  position: relative;
+}
+
+.formContainer {
+  width: 26vw;
+  height: 67vh;
+  padding: 4vh 2vw 0;
+  overflow-y: scroll;
+}
+
+.formContainer::-webkit-scrollbar {
+  width: 0;
+}
+
+.textReviewContainer textarea {
+  width: 26vw;
+  height: 10vh;
+  resize: none;
+  border: 0.4vh dashed #ccc;
+  border-radius: 0.5vw;
+  padding: 0.8vh;
+  margin: 1.5vh 0 2vh 0;
+  box-sizing: border-box;
+  font-size: 0.9vw;
+  color: black;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.textReviewContainer textarea:focus {
+  outline: none;
+  border-color: #777;
+  box-shadow: 0 0 5px rgba(119, 119, 119, 0.3);
+}
+
+.textReviewContainer textarea::placeholder {
+  color: #999;
+  font-size: 0.9vw;
+  font-family: "Noto Sans KR", sans-serif;
+  width: fit-content;
+}
+
+.customFileInput {
+  position: relative;
+  margin-bottom: 4vh;
+}
+
+.customFileInput .heading {
+  font-size: 1vw;
+}
+
+.customFileInput input[type="file"] {
+  display: none;
+}
+
+.customFileInput label {
+  width: 25vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 0.5vh;
+  border: 0.4vh dashed #ccc;
+  font-size: 1vw;
+  padding: 1vh 0.3vw;
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 2vh;
+  color: #999;
+  margin-top: 1.5vh;
+}
+
+.customFileInput img {
+  max-width: 21vw;
+  height: auto;
+}
+
+.customFileInputYet {
+  width: max-content;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.satisfy .heading {
+  color: #4caf50;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.silmang .heading {
+  color: #f44366;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.headingLabel {
+  margin-bottom: 1.5vh;
+}
+
+.heading {
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.buttonWrapper {
+  width: 26vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 23vh;
+}
+
+.buttonStyle {
+  width: 6.5vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border-radius: 0.5vh;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSpan {
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+
+.bottom {
+  height: 18vh;
+  width: 30vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #760023;
+  width: 28vw;
+  height: 13vh;
+  color: #ffffff;
+  border-radius: 0 1vh 1vh 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomText {
+  font-size: 1vw;
+  font-weight: 700;
+}
+.bottomCarDiv {
+  width: 28vw;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottomCar {
+  animation: Move 0.6s forwards;
+}
+
+@keyframes Move {
+  0% {
+    transform: translateX(-7vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,129 @@
+.div {
+  width: 30vw;
+  max-height: 100vh;
+  overflow-y: scroll;
+  border-right: 0.1vw solid lightgray;
+  padding: 0 0 0.5vh;
+}
+
+.div::-webkit-scrollbar {
+  width: 0;
+}
+
+.checkBox {
+  margin-top: 4vh;
+  width: 28.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.checkBoxDiv {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxRectangle {
+  display: inline-block;
+  width: 0.8vw;
+  height: 0.8vw;
+  margin-right: 0.3vw;
+  border: 0.15vw solid black;
+  position: relative;
+}
+
+.checkBoxText {
+  font-weight: 700;
+  font-size: 0.9vw;
+}
+
+.checked {
+  position: absolute;
+  transform: translate(-0.1vw, -1.5vh);
+  z-index: 1;
+  width: 1.1vw;
+}
+
+.townButtons {
+  width: 22vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.4vh dashed #ccc;
+  background-color: white;
+  padding: 2vh 1vw;
+  border-radius: 0.5vw;
+  margin-top: 5vh;
+  margin-left: 3vw;
+  height: 4vh;
+}
+
+.townButton {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  border-radius: 0.5vw;
+  padding: 1vh 1vw;
+  margin: 0 0.5vw;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.townButton:hover {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+}
+
+.townButton.activeTown {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+  border: 0.15vw solid #760023;
+}
+
+.oneHouseMargin {
+  display: inline-block;
+  margin: 4vh 0 0 1.25vw;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1vw;
+  padding: 1vh 2vw;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+  color: #555;
+}
+
+.pagination button.active {
+  background-color: #760023;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination button:first-child {
+  margin-right: 2vw;
+}
+
+.pagination button:last-child {
+  margin-left: 2vw;
+}

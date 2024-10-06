@@ -1,0 +1,84 @@
+.divSize {
+  width: 30vw;
+  height: 90vh;
+  position: relative;
+  text-align: center;
+  padding: 5vh 0;
+  font-weight: 700;
+}
+
+.divTitle {
+  font-size: 1.3vw;
+}
+
+.searchList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.searchList::-webkit-scrollbar {
+  width: 0;
+}
+
+.searchListAddressArea {
+  width: 22vw;
+  border: 0.4vh dashed #ccc;
+  background-color: white;
+  padding: 2vh 1vw;
+  border-radius: 0.5vw;
+  margin: 3vh 0;
+}
+
+.searchListPrice {
+  width: 22vw;
+  border: 0.4vh dashed #ccc;
+  background-color: white;
+  padding: 2vh 1vw;
+  border-radius: 0.5vw;
+}
+
+.areaSearch {
+  margin-top: 1vh;
+}
+
+.search-button {
+  padding: 0.9vh 10vw;
+  font-size: 1.3vw;
+  /* position: absolute;
+  bottom: 5vh;
+  right: 2vw; */
+  width: 24vw;
+  height: auto;
+  font-weight: 700;
+
+  background-color: #760023;
+  color: #fff;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* 마우스를 올렸을 때 배경색 변경 */
+.search-button:hover {
+  background-color: #660019;
+}
+
+.searchResultList {
+  margin-top: 4vh;
+}
+
+.searchResultListTitle {
+  font-size: 1.5vw;
+  margin: 0 0 2vh;
+  /* margin: 0 1.5vw 2vh;
+  text-align: start; */
+}
+
+.oneHouseMargin {
+  display: inline-block;
+  margin: 2vh 0.5vw;
+}

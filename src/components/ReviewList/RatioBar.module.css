@@ -1,0 +1,33 @@
+.ratioBar {
+  display: flex;
+  width: 20vw;
+  height: 2vh;
+  background: #eee;
+  border-radius: 1vw;
+}
+
+.ratioLike {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 1vw 0 0 1vw;
+}
+
+.ratioDislike {
+  background-color: #f44366;
+  height: 100%;
+  border-radius: 0 1vw 1vw 0;
+}
+
+.ratioLikeAll {
+  background-color: #4caf50;
+  height: 100%;
+  width: 100%;
+  border-radius: 1vw;
+}
+
+.ratioDislikeAll {
+  background-color: #f44366;
+  height: 100%;
+  width: 100%;
+  border-radius: 1vw;
+}

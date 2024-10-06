@@ -1,0 +1,87 @@
+.signup4_div {
+  width: 30vw;
+  height: 100vh;
+  background-image: url("../assets/background.png");
+  box-shadow: 0.1vw 0 0 0 white inset;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailInputDiv {
+  background-color: white;
+  width: 25vw;
+  height: fit-content;
+  padding: 8vh 0;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 0 0.3vw #760023, 0 0 0 0.6vw white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #760023;
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.emailInputTitle {
+  width: 20vw;
+}
+
+.emailInputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3vh 0 0 0;
+}
+
+.labelPassword,
+.labelPasswordcheck {
+  color: #760023;
+  font-weight: bold;
+  font-size: 1.3vw;
+  margin-left: 0.5vw;
+}
+
+.passwordContainer,
+.passwordcheckContainer {
+  width: fit-content;
+}
+
+.passwordInput,
+.passwordcheckInput {
+  padding: 1vh 0.7vw;
+  margin: 1vw 0;
+  width: 22vw;
+  border: 0.2vw solid #ccc;
+  border-radius: 0.5vw;
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1.1vw;
+}
+
+.passwordInput::placeholder,
+.passwordcheckInput::placeholder {
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.emailInputFormButton {
+  width: fit-content;
+  padding: 0 1.5vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5vw;
+  font-weight: 700;
+  font-size: 1.1vw;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}

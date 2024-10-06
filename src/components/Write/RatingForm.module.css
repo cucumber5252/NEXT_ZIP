@@ -1,0 +1,28 @@
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.starSpan {
+  cursor: pointer;
+  height: 2.5vw;
+}
+
+.starImg {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.filled {
+  fill: #feb21e;
+}
+
+.empty {
+  fill: #ffffff;
+}
+
+.starText {
+  font-size: 1rem;
+}

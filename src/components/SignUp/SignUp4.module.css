@@ -1,0 +1,140 @@
+.signup4_div {
+  width: 30vw;
+  height: 100vh;
+  background-image: url("../../assets/background.png");
+  box-shadow: 0.1vw 0 0 0 white inset;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailInputDiv {
+  background-color: white;
+  width: 25vw;
+  height: fit-content;
+  padding: 5vh 0;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 0 0.3vw #760023, 0 0 0 0.6vw white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #760023;
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.emailInputTitle {
+  width: 20vw;
+}
+
+.emailInputText {
+  margin: 5vh 0 0;
+}
+
+.emailInputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailInputInnerFormDiv {
+  margin: 7vh 0;
+}
+
+.emailInput {
+  font-size: 1.3vw;
+  width: 12vw;
+  margin-right: 0.5vw;
+  text-align: center;
+  color: #760023;
+  font-weight: 700;
+
+  border: none;
+  border-bottom: 0.2vw solid #760023;
+  background-color: transparent;
+
+  outline: none;
+}
+
+.emailInputInnerSpan {
+  font-size: 1.3vw;
+}
+
+.emailButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.emailInputFormButton {
+  width: 10vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5vw;
+  font-weight: 700;
+  font-size: 1.1vw;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.emailInputLinkMoveButton {
+  margin-left: 1vw;
+  width: 10vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5vw;
+  font-weight: 700;
+  font-size: 1.1vw;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numberInputDiv {
+  background-color: white;
+  width: 25vw;
+  height: 20vh;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 0 0.3vw #760023, /* 첫 번째 border */ 0 0 0 0.6vw white; /* 두 번째 border */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5vh;
+}
+
+.numberInput {
+  font-size: 1.3vw;
+  width: 12vw;
+  text-align: center;
+  color: #760023;
+  font-weight: 700;
+  border: 0.2vw solid#760023;
+}
+
+.numberInputFormButton {
+  width: 8vw;
+  height: 5vh;
+  background-color: #760023;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5vw;
+  font-weight: 700;
+  font-size: 1.1vw;
+  transition: transform 0.2s ease-in-out;
+  margin: 3vh 0 0;
+}

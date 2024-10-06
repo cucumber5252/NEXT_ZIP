@@ -1,0 +1,78 @@
+.priceButtonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0;
+  font-weight: 700;
+}
+
+.priceButton {
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1vw;
+  font-weight: 700;
+  margin: 0 1vw;
+  border-radius: 0.5vw;
+  background-color: rgb(245, 243, 243);
+  border: none;
+}
+
+.priceButton:hover {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+}
+
+/* 활성화된 버튼 스타일 */
+.priceButton.active {
+  background-color: rgb(249, 242, 240);
+  color: #760023;
+  border: 0.15vw solid #760023;
+}
+
+/* 선택하기 전에는 테두리가 없도록 설정 */
+.priceButton:not(.active) {
+  border: none;
+}
+
+.priceInputDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 22vw;
+  justify-content: space-between;
+}
+
+.priceInputLabel {
+  font-size: 1vw;
+  width: 10vw;
+  text-align: center;
+}
+
+.priceInputRange {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.priceInput {
+  padding: 0.4vw;
+  border: 0.1vw solid #ccc;
+  border-radius: 0.3vw;
+  font-size: 0.9vw;
+  width: 6vw;
+  text-align: center;
+}
+
+.priceInput::placeholder {
+  text-align: center;
+}
+
+.waveText {
+  font-weight: 700;
+  font-size: 2vw;
+  margin: 0 0.5vw;
+}

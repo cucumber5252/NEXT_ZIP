@@ -1,0 +1,68 @@
+.popupContainer {
+  padding: 1vh;
+  background-color: white;
+  height: fit-content;
+}
+
+.inputField {
+  width: 100%;
+  box-sizing: border-box;
+  height: 5vh;
+  border-radius: 0.5vw;
+  border: 1px solid #ccc;
+  padding: 0 1vw;
+  font-family: Arial, sans-serif;
+  font-size: 1vw;
+  margin-bottom: 1vh;
+}
+
+.inputField::placeholder {
+  font-size: 0.8vw;
+}
+
+.searchButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1vh;
+}
+
+.searchButton button {
+  margin: 0.4vh 1.2vh;
+  background-color: #760023;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  padding: 0.8vh 1.2vw;
+  font-size: 0.8vw;
+  cursor: pointer;
+}
+
+.searchButton button:hover {
+  background-color: #9c303c;
+}
+
+.resultsContainer {
+  position: relative;
+  max-height: 36vh;
+  overflow-y: auto;
+}
+
+.resultsContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resultsContainer li {
+  border-bottom: 1px solid #ccc;
+}
+
+.resultsContainer li .contentWrapper {
+  padding: 1vh;
+  font-size: 1vw;
+}
+
+.resultsContainer li:hover {
+  background-color: #f0f0f0;
+}
